@@ -39,6 +39,6 @@ lst2=list(['hello','world',98])
 lst=['hello','world',98,'hello']
 print(lst.index('hello'))      #0,如果列表中有相同元素只返回列表中相同元素的第一个元素的索引
 print(lst.index('Python'))
-print(list.index('hello',1,3))   #在1-3的位置上查找hello,不包括3
+print(lst.index('hello',1,3))   #在1-3的位置上查找hello,不包括3
 
 
